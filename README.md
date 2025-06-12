@@ -6,3 +6,17 @@ The repository contains 3 projects:
 - Buoyant AUV implementing a Thrusting system, Drag, partial Buoyancy, and Hydrodynamics plugins.
 
 All projects are developed only using Gazebo Sim and do not require other software.
+
+Use ```export GZ_SIM_RESOURCE_PATH=:$HOME/gazebo_maritime/models``` in order to load the models before executing the *.sdf* files with ```gz sim```
+
+*Buoyant Turtle:*
+
+![Gz Turtle Screenshot](./media/turtle.png)
+
+*Buoyant Lander:*
+
+![Gz Lander Screenshot](./media/lander.png)
+
+*Buoyant AUV:*
+
+![Gz LRAUV Screenshot](./media/lrauv.png)

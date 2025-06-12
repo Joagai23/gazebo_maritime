@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="turtle">
+    <link name="base_link">
+ 
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>10</mass>
+        <inertia>
+          <ixx>0.35032999999999995</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.35032999999999995</iyy>
+          <iyz>0</iyz>
+          <izz>0.61250000000000006</izz>
+        </inertia>
+      </inertial>
+ 
+      <collision name='collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1 1 0.009948450858321252</size>
+          </box>
+        </geometry>
+      </collision>
+ 
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/turtle.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+ 
+    </link>
+  </model>
+</sdf>
